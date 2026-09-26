@@ -1,7 +1,7 @@
 # PII Redaction Tool
 
 **Khushi Gupta** · B.Tech CSE (AIML), 4th year, UPES Dehradun
-📧 khushigupttaa04@gmail.com · 📞 +91 XXXXX XXXXX · 🌐 **[Live app](https://pii-redaction-tool-khushi.streamlit.app/)** · 📄 **[Redacted output file](https://docs.google.com/document/d/1S5UmBJMnRl3qLkLZrpQAkdfKJGKbUERY/edit?usp=sharing)** · 📊 **[Evaluation report](https://drive.google.com/file/d/1EhxdD9GTSHl54zRUYNXAkXRe4qBc5Vma/view?usp=sharing)**
+📧 khushigupttaa04@gmail.com · 📞 +91 99718 21850 · 🌐 **[Live app](https://pii-redaction-tool-khushi.streamlit.app/)** · 📄 **[Redacted output file](https://docs.google.com/document/d/1S5UmBJMnRl3qLkLZrpQAkdfKJGKbUERY/edit?usp=sharing)** · 📊 **[Evaluation report](https://drive.google.com/file/d/1EhxdD9GTSHl54zRUYNXAkXRe4qBc5Vma/view?usp=sharing)**
 
 I built a tool that finds personal and business-identifying information (PII/BII) in Indian securities filings and support ticket logs, and replaces every item with a **consistent, realistic fake** while keeping the document's tables, formatting and meaning intact.
 
