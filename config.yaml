@@ -1,0 +1,33 @@
+# Minimum Presidio confidence to redact, per PII type (anything not listed uses default)
+thresholds:
+  default: 0.4
+  PAN: 0.5            # Presidio's weakest PAN pattern (any 10-letter word) can reach 0.4 with context
+
+# Legal-entity suffixes missing from the cleanco library (UAE free-zone forms)
+extra_company_suffixes: [DMCC, FZE, FZCO, FZ-LLC]
+
+# Public bodies and finance terms that are NOT PII (whole-word, case-insensitive)
+allow_list:
+  - SEBI
+  - BSE Limited
+  - National Stock Exchange of India Limited
+  - National Securities Depository Limited
+  - Central Depository Services
+  - Reserve Bank of India
+  - sebi.gov.in
+  - bseindia.com
+  - nseindia.com
+  - fbil.org.in
+  - rbi.org.in
+  - oanda.com
+  - National Payments Corporation of India
+  - Cap Price
+  - Floor Price
+  - Offer Price
+  - Facility
+  - PAT
+  - CAGR
+
+# Words that mark text as an address
+address_words: [floor, tower, house, building, road, marg, nagar, lane, street, plot, wing, chambers,
+                 complex, apartment, society, colony, sector, chowk, park, centre, center, plaza, village, taluka, near, opp, opposite]

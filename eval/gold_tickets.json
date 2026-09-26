@@ -1,0 +1,211 @@
+[
+ {
+  "text": "[TKT-10231] 2026-09-02 Customer Anita Desai (anita.desai@gmail.com, +91 9876543210) reported a failed refund on card 4111 1111 1111 1111.",
+  "pii": [
+   [
+    "PERSON",
+    "Anita Desai"
+   ],
+   [
+    "EMAIL",
+    "anita.desai@gmail.com"
+   ],
+   [
+    "PHONE",
+    "+91 9876543210"
+   ],
+   [
+    "CREDIT_CARD",
+    "4111 1111 1111 1111"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10232] 2026-09-02 Login alert for user rohan.dey@outlook.com from IP 192.168.10.45; account locked after 5 attempts.",
+  "pii": [
+   [
+    "EMAIL",
+    "rohan.dey@outlook.com"
+   ],
+   [
+    "IP_ADDRESS",
+    "192.168.10.45"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10233] 2026-09-03 Order #4111111111111112 dispatched to warehouse; no customer action needed.",
+  "pii": []
+ },
+ {
+  "text": "[TKT-10234] 2026-09-03 Vikram Rao requested KYC update. PAN ABCPR1234K, Aadhaar 2943 6593 3461, DOB 14/03/1988.",
+  "pii": [
+   [
+    "PERSON",
+    "Vikram Rao"
+   ],
+   [
+    "PAN",
+    "ABCPR1234K"
+   ],
+   [
+    "AADHAAR",
+    "2943 6593 3461"
+   ],
+   [
+    "DOB",
+    "14/03/1988"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10235] 2026-09-04 Ship replacement to 14, Lake View Apartments, Rajpur Road, Dehradun - 248 001, Uttarakhand, India.",
+  "pii": [
+   [
+    "ADDRESS",
+    "14, Lake View Apartments, Rajpur Road, Dehradun - 248 001, Uttarakhand, India"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10236] 2026-09-04 Firmware upgraded to version 1.2.3.4 on the billing server; ticket 123-45-678 closed.",
+  "pii": []
+ },
+ {
+  "text": "[TKT-10237] 2026-09-05 US customer John Carter (SSN 536-22-8726) called from +1 (415) 555-0132 about a chargeback on 5500-0000-0000-0004.",
+  "pii": [
+   [
+    "PERSON",
+    "John Carter"
+   ],
+   [
+    "SSN",
+    "536-22-8726"
+   ],
+   [
+    "PHONE",
+    "+1 (415) 555-0132"
+   ],
+   [
+    "CREDIT_CARD",
+    "5500-0000-0000-0004"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10238] 2026-09-05 Vendor Sunrise Textiles Private Limited asked for invoice INV-2026-0045 to be resent to accounts@sunrisetextiles.in.",
+  "pii": [
+   [
+    "COMPANY",
+    "Sunrise Textiles Private Limited"
+   ],
+   [
+    "EMAIL",
+    "accounts@sunrisetextiles.in"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10239] 2026-09-06 Server 10.0.0.1 forwarded the request to 172.16.254.3 at 03:14 IST.",
+  "pii": [
+   [
+    "IP_ADDRESS",
+    "10.0.0.1"
+   ],
+   [
+    "IP_ADDRESS",
+    "172.16.254.3"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10240] 2026-09-06 Priya Nair, born on 22 July 1991, asked to update her mobile to 98200 11223; contact her on Tel: 022 2654 1100.",
+  "pii": [
+   [
+    "PERSON",
+    "Priya Nair"
+   ],
+   [
+    "DOB",
+    "22 July 1991"
+   ],
+   [
+    "PHONE",
+    "98200 11223"
+   ],
+   [
+    "PHONE",
+    "022 2654 1100"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10241] 2026-09-07 Refund of Rs 7,896.04 processed for order 998877665544; SLA met.",
+  "pii": []
+ },
+ {
+  "text": "[TKT-10242] 2026-09-07 Escalated to Meera Iyer at Acme Logistics Inc; see www.acmelogistics.com/support for the policy.",
+  "pii": [
+   [
+    "PERSON",
+    "Meera Iyer"
+   ],
+   [
+    "COMPANY",
+    "Acme Logistics Inc"
+   ],
+   [
+    "URL",
+    "www.acmelogistics.com/support"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10243] 2026-09-08 Customer asked how SEBI rules apply to her demat account; replied with a link to www.sebi.gov.in.",
+  "pii": []
+ },
+ {
+  "text": "[TKT-10244] 2026-09-08 Delivery address: Flat 302, Green Park Society, MG Road, near City Mall, Pune.",
+  "pii": [
+   [
+    "ADDRESS",
+    "Flat 302, Green Park Society, MG Road, near City Mall, Pune"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10245] 2026-09-09 Rashi Patil (rashi.patil@gmail.com) reported the app crashing on Android 14.",
+  "pii": [
+   [
+    "PERSON",
+    "Rashi Patil"
+   ],
+   [
+    "EMAIL",
+    "rashi.patil@gmail.com"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10246] 2026-09-10 Aadhaar field had a mistyped value 2943 6593 3462 that failed validation; asked customer to re-enter.",
+  "pii": []
+ },
+ {
+  "text": "[TKT-10247] 2026-09-10 Vendor GSTIN 27AAACK1234A1Z5 added to the billing profile.",
+  "pii": [
+   [
+    "GSTIN",
+    "27AAACK1234A1Z5"
+   ]
+  ]
+ },
+ {
+  "text": "[TKT-10248] 2026-09-11 Suspicious login from IPv6 2001:db8:85a3::8a2e:370:7334 blocked.",
+  "pii": [
+   [
+    "IP_ADDRESS",
+    "2001:db8:85a3::8a2e:370:7334"
+   ]
+  ]
+ }
+]

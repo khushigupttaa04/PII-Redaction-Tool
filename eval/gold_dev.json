@@ -1,0 +1,793 @@
+[
+ {
+  "text": "Corporate Office: 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India;",
+  "pii": [
+   [
+    "ADDRESS",
+    "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India"
+   ]
+  ]
+ },
+ {
+  "text": "801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India",
+  "pii": [
+   [
+    "ADDRESS",
+    "801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India"
+   ]
+  ]
+ },
+ {
+  "text": "Tel: +91 22 40094400",
+  "pii": [
+   [
+    "PHONE",
+    "+91 22 40094400"
+   ]
+  ]
+ },
+ {
+  "text": "E-mail: ksh.ipo@nuvama.com",
+  "pii": [
+   [
+    "EMAIL",
+    "ksh.ipo@nuvama.com"
+   ]
+  ]
+ },
+ {
+  "text": "SEBI Registration Number: INM000013004",
+  "pii": [
+   [
+    "SEBI_REG",
+    "INM000013004"
+   ]
+  ]
+ },
+ {
+  "text": "ICICI Securities Limited",
+  "pii": [
+   [
+    "COMPANY",
+    "ICICI Securities Limited"
+   ]
+  ]
+ },
+ {
+  "text": "ICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India",
+  "pii": [
+   [
+    "ADDRESS",
+    "ICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India"
+   ]
+  ]
+ },
+ {
+  "text": "Investor grievance email: customercare@icicisecurities.com",
+  "pii": [
+   [
+    "EMAIL",
+    "customercare@icicisecurities.com"
+   ]
+  ]
+ },
+ {
+  "text": "SEBI Registration Number: INM000011179",
+  "pii": [
+   [
+    "SEBI_REG",
+    "INM000011179"
+   ]
+  ]
+ },
+ {
+  "text": "Contact Person: Shanti Gopalkrishnan",
+  "pii": [
+   [
+    "PERSON",
+    "Shanti Gopalkrishnan"
+   ]
+  ]
+ },
+ {
+  "text": "KSH International Limited, a public limited company incorporated under the Companies Act, 1956, having its registered office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India",
+  "pii": [
+   [
+    "COMPANY",
+    "KSH International Limited"
+   ],
+   [
+    "ADDRESS",
+    "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India"
+   ]
+  ]
+ },
+ {
+  "text": "Report titled “Industry Research Report on Magnet Winding Wires Market in India” dated November 26, 2025, prepared and issued by CARE Analytics and Advisory Private Limited which has been commissioned by and paid for by our Company pursuant to an engagement letter dated December 2, 2024 entered into with CARE Analytics and Advisory Private Limited, exclusively for the purposes of the Offer. The report will be available on the website of our Company at",
+  "pii": [
+   [
+    "COMPANY",
+    "CARE Analytics and Advisory Private Limited"
+   ],
+   [
+    "COMPANY",
+    "CARE Analytics and Advisory Private Limited"
+   ]
+  ]
+ },
+ {
+  "text": "Limited, and KSH Infra Park IV Private Limited",
+  "pii": [
+   [
+    "COMPANY",
+    "KSH Infra Park IV Private Limited"
+   ]
+  ]
+ },
+ {
+  "text": "Promoter Trusts",
+  "pii": []
+ },
+ {
+  "text": "Rakhi Girija Shetty, her spouse (if any), her children, lineal descendants and Annapurna Family Trust",
+  "pii": [
+   [
+    "PERSON",
+    "Rakhi Girija Shetty"
+   ],
+   [
+    "COMPANY",
+    "Annapurna Family Trust"
+   ]
+  ]
+ },
+ {
+  "text": "Our manufacturing facility located at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India",
+  "pii": [
+   [
+    "ADDRESS",
+    "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India"
+   ]
+  ]
+ },
+ {
+  "text": "respective websites of the Stock Exchanges at www.bseindia.com and www.nseindia.com and updated from time to time",
+  "pii": []
+ },
+ {
+  "text": "ICICI Securities Limited",
+  "pii": [
+   [
+    "COMPANY",
+    "ICICI Securities Limited"
+   ]
+  ]
+ },
+ {
+  "text": "National Securities Depository Limited",
+  "pii": []
+ },
+ {
+  "text": "Source: FBIL Reference Rate as available on www.fbil.org.in. and www.oanda.com/bvi-en/ Notes:",
+  "pii": []
+ },
+ {
+  "text": "Kushal Subbayya Hegde*",
+  "pii": [
+   [
+    "PERSON",
+    "Kushal Subbayya Hegde"
+   ]
+  ]
+ },
+ {
+  "text": "Dhaulagiri Family Trust",
+  "pii": [
+   [
+    "COMPANY",
+    "Dhaulagiri Family Trust"
+   ]
+  ]
+ },
+ {
+  "text": "Everest Family Trust",
+  "pii": [
+   [
+    "COMPANY",
+    "Everest Family Trust"
+   ]
+  ]
+ },
+ {
+  "text": "Limited",
+  "pii": []
+ },
+ {
+  "text": "Pushpa Kushal Hegde*^&",
+  "pii": [
+   [
+    "PERSON",
+    "Pushpa Kushal Hegde"
+   ]
+  ]
+ },
+ {
+  "text": "Maithili Rajesh Hegde&",
+  "pii": [
+   [
+    "PERSON",
+    "Maithili Rajesh Hegde"
+   ]
+  ]
+ },
+ {
+  "text": "Kushal Subbayya Hegde",
+  "pii": [
+   [
+    "PERSON",
+    "Kushal Subbayya Hegde"
+   ]
+  ]
+ },
+ {
+  "text": "Form 7B for transfer of shares to Rajesh Hegde by Vijay Hegde.",
+  "pii": [
+   [
+    "PERSON",
+    "Rajesh Hegde"
+   ],
+   [
+    "PERSON",
+    "Vijay Hegde"
+   ]
+  ]
+ },
+ {
+  "text": "Registered Office of our Company KSH International Limited",
+  "pii": [
+   [
+    "COMPANY",
+    "KSH International Limited"
+   ]
+  ]
+ },
+ {
+  "text": "Corporate Office of our Company KSH International Limited",
+  "pii": [
+   [
+    "COMPANY",
+    "KSH International Limited"
+   ]
+  ]
+ },
+ {
+  "text": "602, Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India",
+  "pii": [
+   [
+    "ADDRESS",
+    "602, Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India"
+   ]
+  ]
+ },
+ {
+  "text": "E-mail: Sarthak.malvadkar@kshinterantional.com",
+  "pii": [
+   [
+    "EMAIL",
+    "Sarthak.malvadkar@kshinterantional.com"
+   ]
+  ]
+ },
+ {
+  "text": "SEBI registration no.: INM000013004",
+  "pii": [
+   [
+    "SEBI_REG",
+    "INM000013004"
+   ]
+  ]
+ },
+ {
+  "text": "HDFC Bank Limited",
+  "pii": [
+   [
+    "COMPANY",
+    "HDFC Bank Limited"
+   ]
+  ]
+ },
+ {
+  "text": "Opposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038",
+  "pii": [
+   [
+    "ADDRESS",
+    "Opposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038"
+   ]
+  ]
+ },
+ {
+  "text": "Telephone: + 91 20 6729 5100",
+  "pii": [
+   [
+    "PHONE",
+    "+ 91 20 6729 5100"
+   ]
+  ]
+ },
+ {
+  "text": "Email: hitesh.ramani@citi.com",
+  "pii": [
+   [
+    "EMAIL",
+    "hitesh.ramani@citi.com"
+   ]
+  ]
+ },
+ {
+  "text": "IndusInd Bank Limited 2401 Gen Thimmayya Road, Cantonment",
+  "pii": [
+   [
+    "COMPANY",
+    "IndusInd Bank Limited"
+   ],
+   [
+    "ADDRESS",
+    "2401 Gen Thimmayya Road, Cantonment"
+   ]
+  ]
+ },
+ {
+  "text": "Telephone: +91-20-26234000 Contact Person: Sharmila Joshi Website: www.indusind.com/ Email: sharmila.joshi@indusind.com",
+  "pii": [
+   [
+    "PHONE",
+    "+91-20-26234000"
+   ],
+   [
+    "PERSON",
+    "Sharmila Joshi"
+   ],
+   [
+    "URL",
+    "www.indusind.com/"
+   ],
+   [
+    "EMAIL",
+    "sharmila.joshi@indusind.com"
+   ]
+  ]
+ },
+ {
+  "text": "Telephone: + 91 8879770456 Contact Person: Cherag Gyara Website: www.icicibank.com Email: cherag.gyara@icicibank.com",
+  "pii": [
+   [
+    "PHONE",
+    "+ 91 8879770456"
+   ],
+   [
+    "PERSON",
+    "Cherag Gyara"
+   ],
+   [
+    "URL",
+    "www.icicibank.com"
+   ],
+   [
+    "EMAIL",
+    "cherag.gyara@icicibank.com"
+   ]
+  ]
+ },
+ {
+  "text": "Email: manisha.shukla@hdfcbank.com",
+  "pii": [
+   [
+    "EMAIL",
+    "manisha.shukla@hdfcbank.com"
+   ]
+  ]
+ },
+ {
+  "text": "The Federal Bank Limited Ground Floor, Kubera Chambers Opp. Sancheti Hospital Shivajinagar, Pune – 41l 005 Maharashtra, India",
+  "pii": [
+   [
+    "COMPANY",
+    "The Federal Bank Limited"
+   ],
+   [
+    "ADDRESS",
+    "Ground Floor, Kubera Chambers Opp. Sancheti Hospital Shivajinagar, Pune – 41l 005 Maharashtra, India"
+   ]
+  ]
+ },
+ {
+  "text": "Contact Person: Ashish Mathew Pulloor",
+  "pii": [
+   [
+    "PERSON",
+    "Ashish Mathew Pulloor"
+   ]
+  ]
+ },
+ {
+  "text": "Website: www.federalbank.co.in",
+  "pii": [
+   [
+    "URL",
+    "www.federalbank.co.in"
+   ]
+  ]
+ },
+ {
+  "text": "Email: ashishmp@federalbank.co.in",
+  "pii": [
+   [
+    "EMAIL",
+    "ashishmp@federalbank.co.in"
+   ]
+  ]
+ },
+ {
+  "text": "Description",
+  "pii": []
+ },
+ {
+  "text": "Allotment Advice",
+  "pii": []
+ },
+ {
+  "text": "Term",
+  "pii": []
+ },
+ {
+  "text": "Description",
+  "pii": []
+ },
+ {
+  "text": "Notice or intimation of allocation of the Equity Shares sent to Anchor Investors, who have been allocated the Equity Shares, on/after the Anchor Investor Bidding Date",
+  "pii": []
+ },
+ {
+  "text": "Designated Date",
+  "pii": []
+ },
+ {
+  "text": "Description",
+  "pii": []
+ },
+ {
+  "text": "Intermediaries (other than the BRLMs) registered with SEBI who are permitted to accept bids, applications and place order with respect to the Offer and carry out activities as an underwriter,",
+  "pii": []
+ },
+ {
+  "text": "NACH",
+  "pii": []
+ },
+ {
+  "text": "SEBI FVCI Regulations",
+  "pii": []
+ },
+ {
+  "text": "CERC",
+  "pii": []
+ },
+ {
+  "text": "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan Yojana",
+  "pii": []
+ },
+ {
+  "text": "Up to [●] Equity Shares of face value of ₹5 each for cash at price of ₹[●] per Equity Share (including a premium of [●] per Equity Share), aggregating up to ₹7,100.00 million",
+  "pii": []
+ },
+ {
+  "text": "purchasing and setting up of new machinery at Unit 2 in Chakan, Pune in Maharashtra",
+  "pii": []
+ },
+ {
+  "text": "[●]",
+  "pii": []
+ },
+ {
+  "text": "55,906,542",
+  "pii": []
+ },
+ {
+  "text": "[●]",
+  "pii": []
+ },
+ {
+  "text": "[●]",
+  "pii": []
+ },
+ {
+  "text": "2",
+  "pii": []
+ },
+ {
+  "text": "11.54",
+  "pii": []
+ },
+ {
+  "text": "S. No.",
+  "pii": []
+ },
+ {
+  "text": "place",
+  "pii": []
+ },
+ {
+  "text": "Name of Promoter",
+  "pii": []
+ },
+ {
+  "text": "0.00",
+  "pii": []
+ },
+ {
+  "text": "0.00",
+  "pii": []
+ },
+ {
+  "text": "Our Company has not undertaken any pre-IPO placement between the date of the Draft Red Herring Prospectus and the date of this Red Herring Prospectus.",
+  "pii": []
+ },
+ {
+  "text": "Fiscal 2025",
+  "pii": []
+ },
+ {
+  "text": "2.",
+  "pii": []
+ },
+ {
+  "text": "7,896.04",
+  "pii": []
+ },
+ {
+  "text": "2,119.68",
+  "pii": []
+ },
+ {
+  "text": "5845.18",
+  "pii": []
+ },
+ {
+  "text": "Supplier",
+  "pii": []
+ },
+ {
+  "text": "92.54%",
+  "pii": []
+ },
+ {
+  "text": "94.97%",
+  "pii": []
+ },
+ {
+  "text": "61.27%",
+  "pii": []
+ },
+ {
+  "text": "8,698.99",
+  "pii": []
+ },
+ {
+  "text": "End-user industry",
+  "pii": []
+ },
+ {
+  "text": "End-user industry",
+  "pii": []
+ },
+ {
+  "text": "Amount (₹ in million)",
+  "pii": []
+ },
+ {
+  "text": "operating revenue",
+  "pii": []
+ },
+ {
+  "text": "139.82",
+  "pii": []
+ },
+ {
+  "text": "7.",
+  "pii": []
+ },
+ {
+  "text": "35.19%",
+  "pii": []
+ },
+ {
+  "text": "Specialised Magnet Winding Wire",
+  "pii": []
+ },
+ {
+  "text": "For PICC - 26 days per month resulting in 312 working days in a year with per day three operating shifts with actual run time of 5.6 hours per shift.",
+  "pii": []
+ },
+ {
+  "text": "0.09",
+  "pii": []
+ },
+ {
+  "text": "0.01",
+  "pii": []
+ },
+ {
+  "text": "Long Term Bank Facilities",
+  "pii": []
+ },
+ {
+  "text": "We have not made any alternate arrangements for meeting our capital requirements for the Objects of the Offer. Any shortfall in raising / meeting the same could adversely affect our growth plans, operations and financial performance.",
+  "pii": []
+ },
+ {
+  "text": "Government Incentive schemes (₹ in million)",
+  "pii": []
+ },
+ {
+  "text": "0.01%",
+  "pii": []
+ },
+ {
+  "text": "The Offer comprises of:",
+  "pii": []
+ },
+ {
+  "text": "E)",
+  "pii": []
+ },
+ {
+  "text": "11",
+  "pii": []
+ },
+ {
+  "text": "11",
+  "pii": []
+ },
+ {
+  "text": "Unless the context otherwise indicates, all references to “we”, “us”, “our”, “the Company”, and “our Company”, are references to KSH International Limited, a company incorporated on July 30, 1979 under the Companies Act, 1956 and having its Registered Office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India and its Corporate Office at 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India.",
+  "pii": [
+   [
+    "COMPANY",
+    "KSH International Limited"
+   ],
+   [
+    "ADDRESS",
+    "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India"
+   ],
+   [
+    "ADDRESS",
+    "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India"
+   ]
+  ]
+ },
+ {
+  "text": "In cases of force majeure, banking strike or similar unforeseen circumstances, our Company may, for reasons to be recorded in writing, extend the Bid/Offer Period for a minimum of one Working Day, subject to the Bid/Offer Period not exceeding 10 Working Days",
+  "pii": []
+ },
+ {
+  "text": "Broker centres of the Registered Brokers where ASBA Bidders can submit the ASBA Forms, provided that UPI Bidders may only submit ASBA Forms at such broker centres if they are Bidding using the UPI Mechanism. The details of such broker centres, along with the names and contact details of the Registered Brokers, are available on the respective websites of the Stock",
+  "pii": []
+ },
+ {
+  "text": "The offer for sale component of the Offer of up to [●] Equity Shares of face value of ₹5 each aggregating up to ₹2,900.00 million, comprising of an offer for sale of up to [●] Equity Shares of face value of ₹5 each by Kushal Subbayya Hegde aggregating up to ₹1,528.00 million, up to [●] Equity Shares of face value of ₹5 each by Pushpa Kushal Hegde aggregating up to ₹422.00 million, up to [●] Equity Shares of face value of ₹5 each by Rajesh Kushal Hegde aggregating up to ₹475.00 million and up to [●] Equity Shares of face value of ₹5 each by Rohit Kushal Hegde",
+  "pii": [
+   [
+    "PERSON",
+    "Kushal Subbayya Hegde"
+   ],
+   [
+    "PERSON",
+    "Pushpa Kushal Hegde"
+   ],
+   [
+    "PERSON",
+    "Rajesh Kushal Hegde"
+   ],
+   [
+    "PERSON",
+    "Rohit Kushal Hegde"
+   ]
+  ]
+ },
+ {
+  "text": "SEBI circular number SEBI/HO/CFD/DIL2/CIR/P/2019/85 dated July 26, 2019 and SEBI master circular with circular number SEBI/HO/MIRSD/POD-1/P/CIR/2024/37 dated May 7, 2024, SEBI ICDR Master Circular and any subsequent circulars or notifications issued by SEBI in this regard (to the extent that such circulars pertain to the UPI Mechanism), along with the circulars issued by the Stock Exchanges in this regard, including the circular issued by the NSE having reference number 25/2022 dated August 3, 2022, the circular issued by BSE having reference number 20220803-40 dated August 3, 2022 and SEBI circular number SEBI/HO/DEPA-II/DEPA-II_SRG/P/CIR/2025/86 dated June 11, 2025 and any subsequent",
+  "pii": []
+ },
+ {
+  "text": "A request (intimating the UPI Bidders, by way of a notification on the UPI linked mobile application as disclosed by SCSBs on the website of SEBI and by way of an SMS directing the UPI Bidders to such UPI linked mobile application) to the UPI Bidders using the UPI Mechanism initiated by the Sponsor Banks to authorize blocking of funds equivalent to the Bid Amount in the relevant ASBA Account through the UPI linked mobile application, and the subsequent debit of",
+  "pii": []
+ },
+ {
+  "text": "We have encountered delays in the past and may encounter delays or time cost overruns in the completion of the construction of our manufacturing facility at Supa, Ahilyanagar (formerly Ahmednagar) in Maharashtra, which may adversely affect our business, result of operations, financial condition and cash flows.",
+  "pii": []
+ },
+ {
+  "text": "During the last three Fiscals, the prices of copper and aluminium have experienced a compounded annual growth rate (CAGR) of 3.1% and 0.5%, respectively, leading to increased input costs (Source: CARE Report). While we have not faced any significant challenges in the procurement of raw materials in the three-month period ended June 30, 2025 or Fiscals 2025, 2024 and 2023, we cannot assure that we will not face any disruptions in future. Any significant shortfall in supply or increase in costs could adversely affect the pricing and supply of our products, impair our competitiveness, and negatively impact our business operations, financial condition, cash flows and results of operations.",
+  "pii": []
+ },
+ {
+  "text": "We are unable to trace some of our historical corporate records including in relation to certain allotments made by our Company. Further, certain corporate records have errors, and certain corporate filings have been made with delays. We cannot assure you that no legal proceedings or regulatory actions will be initiated against our Company in the future in relation to these matters, which may impact our financial condition and reputation.",
+  "pii": []
+ },
+ {
+  "text": "Certain of our Company’s corporate records are not traceable as the relevant information was not available in the records maintained by our Company or on the online portal of the Ministry of Corporate Affairs (“MCA Portal”) or in the physical records available at the Registrar of Companies. For instance, we are unable to trace the following:",
+  "pii": []
+ },
+ {
+  "text": "Further, some of our form filings made with the RoC have been delayed in the three-month period ended June 30, 2025, and Fiscals 2025, 2024 and 2023. We have made such filings subsequent to the statutory period with a late filing fee. We cannot assure you that our future filings shall be made within the time permitted under the applicable laws, and that any legal proceedings or regulatory actions will be initiated against our Company in the future.",
+  "pii": []
+ },
+ {
+  "text": "Certain sections of this Red Herring Prospectus include information based on, or derived from, the CARE Report or extracts of the CARE Report prepared by Care Analytics and Advisory Private Limited (“CareEdge Research”). All such information in this Red Herring Prospectus indicates the CARE Report as its source. The CARE Report is available on the website of our Company at https://kshinternational.com/investor-relations/industry-report/.",
+  "pii": [
+   [
+    "COMPANY",
+    "Care Analytics and Advisory Private Limited"
+   ],
+   [
+    "COMPANY",
+    "CareEdge Research"
+   ],
+   [
+    "URL",
+    "https://kshinternational.com/investor-relations/industry-report/"
+   ]
+  ]
+ },
+ {
+  "text": "and regulatory proceedings involving our Company, Promoters or Directors in the future. An adverse outcome in any of these proceedings may have an adverse effect on our business, financial position, prospects, cash flows, results of operations and our reputation. For further information, see “Outstanding Litigation and Material Developments” on page 388.",
+  "pii": []
+ },
+ {
+  "text": "Information relating to the installed capacity and capacity utilization of our manufacturing facilities included in this Red Herring Prospectus are based on various assumptions and estimates of our management that have been taken into account by the Independent Chartered Engineer, in the calculation of the installed capacity and capacity utilization of our manufacturing facilities.",
+  "pii": []
+ },
+ {
+  "text": "Our manufacturing facilities are located in Maharashtra, India, which exposes our operations to potential geographical concentration risks arising from local and regional factors which may adversely affect our operations and in turn our business, results of operations and cash flows.",
+  "pii": []
+ },
+ {
+  "text": "We are required to pay certain statutory dues including provident fund contributions under the Employees’ Provident Funds and Miscellaneous Provisions Act, 1952, employee state insurance contributions under the Employees’ State Insurance Act, 1948, professional tax, tax deduction at source (“TDS”), labour welfare fund, GST and income tax.",
+  "pii": []
+ },
+ {
+  "text": "An inability to secure future financing on attractive terms or at all may adversely impact our strategic initiatives and our business prospects. Credit ratings reflect the opinion of the rating agency on our management, track record, diversified clientele, increase in scale and operations and margins, medium term revenue visibility and operating cycle.",
+  "pii": []
+ },
+ {
+  "text": "We undertake certain exchange rate hedging activities due to the size of our operations. We enter into hedging forward contracts, and further, we may in the future implement hedging strategies to mitigate these risks. However, these hedging strategies may not eliminate our exposure to foreign exchange rate fluctuations and involve costs and risks of their own, such as ongoing management time and expertise, external costs to implement the strategy and potential accounting implications.",
+  "pii": []
+ },
+ {
+  "text": "While a voluntary prepayment or scheduled re-payment of a portion of certain outstanding loan facilities will help reduce our outstanding indebtedness and debt servicing costs, assist us in maintaining a favourable debt to equity ratio and enable utilisation of our internal accruals for further investment in business growth and expansion, the repayment/ pre-payment will not result in the creation of any tangible assets for our Company. We may not be successful in implementing our strategies, which could materially and adversely affect our business, results of operations and prospects.",
+  "pii": []
+ },
+ {
+  "text": "Competition for individuals with specialized knowledge and experience is intense in our industry. Further, as we expect to continue to expand our operations and develop new products, we will need to continue to attract and retain experienced management personnel. If we are unable to retain or attract such members or are unable to locate suitable",
+  "pii": []
+ },
+ {
+  "text": "An increase in employee attrition rates may result in an increase in recruitment and training costs for new hires, a decline in productivity and efficiency and loss of knowledge, skill and expertise. We cannot provide assurance that we will be able to grow our workforce in a manner consistent with our growth objectives, which may adversely affect our business, results of operations, cash flows and financial condition.",
+  "pii": []
+ },
+ {
+  "text": "The Equity Shares held by the respective Promoter Selling Shareholders and being offered by the Promoter Selling Shareholders are eligible to form a part of the Offer for Sale in terms of the SEBI ICDR Regulations. Each of the Promoter Selling Shareholders, severally and not jointly, confirms that the Equity Shares being offered by it are eligible for being offered for sale pursuant to the Offer in terms of Regulation 8 of the SEBI ICDR Regulations. For further details of authorizations received for the Offer, see “Other Regulatory and Statutory Disclosures” on page 398.",
+  "pii": []
+ },
+ {
+  "text": "(ii) 6.67% of the Anchor Investor Portion shall be reserved for Life Insurance Companies and Pension Funds, subject to valid Bids being received from domestic Mutual Funds, Life Insurance Companies and Pension Funds, as applicable, at or above the Anchor Investor Allocation Price. Any under-subscription in the Life Insurance Companies and Pension Funds category specified in (ii) above may be allocated to domestic Mutual Funds, in accordance with the SEBI ICDR Regulations.",
+  "pii": []
+ },
+ {
+  "text": "After the determination of the Offer Price and allocation of Equity Shares but prior to the filing of the Prospectus with the RoC, our Company and the Promoter Selling Shareholders will enter into an Underwriting Agreement with the Underwriters for the Equity Shares proposed to be offered through the Offer. The extent of underwriting obligations and the Bids to be underwritten by each BRLM shall be as per the Underwriting Agreement. Pursuant to the terms of the Underwriting Agreement, the obligations of the Underwriters will be several and will be subject to certain conditions to closing, as specified therein.",
+  "pii": []
+ },
+ {
+  "text": "(2)  The Offer has been approved by our Board pursuant to the resolution passed at its meeting held on May 6, 2025 and our Shareholders have authorized the Fresh Issue pursuant to a special resolution passed at their meeting held on May 6, 2025. Further, our Board has taken on record the consents of the Promoter Selling Shareholders to participate in the Offer for Sale pursuant to its resolution dated May 6, 2025 and IPO Committee has taken on record further updated consents of the Promoter Selling Shareholders pursuant to its resolutions dated May 22, 2025 and December 6, 2025, respectively.",
+  "pii": []
+ }
+]
