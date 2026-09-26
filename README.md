@@ -1,11 +1,11 @@
 # PII Redaction Tool
 
 **Khushi Gupta** · B.Tech CSE (AIML), 4th year, UPES Dehradun
-📧 khushigupttaa04@gmail.com · 📞 +91 XXXXX XXXXX · 🌐 Live app: `<streamlit link>`
+📧 khushigupttaa04@gmail.com · 📞 +91 XXXXX XXXXX · 🌐 **[Live app](https://pii-redaction-tool-khushi.streamlit.app/)** · 📄 **[Redacted output file](https://docs.google.com/document/d/1S5UmBJMnRl3qLkLZrpQAkdfKJGKbUERY/edit?usp=sharing)** · 📊 **[Evaluation report](https://drive.google.com/file/d/1EhxdD9GTSHl54zRUYNXAkXRe4qBc5Vma/view?usp=sharing)**
 
 I built a tool that finds personal and business-identifying information (PII/BII) in Indian securities filings and support ticket logs, and replaces every item with a **consistent, realistic fake** while keeping the document's tables, formatting and meaning intact.
 
-> **Results:** on a held-out test set of the Red Herring Prospectus, **98.4% precision / 96.9% recall**. On 5 unseen prospectuses, **100% precision / 88.1% recall** (redaction-level). Full evaluation: [`eval/report/eval_report.pdf`](eval/report/eval_report.pdf).
+> **Results:** on a held-out test set of the Red Herring Prospectus, **98.4% precision / 96.9% recall**. On 5 unseen prospectuses, **100% precision / 88.1% recall** (redaction-level). Full evaluation: [`eval/report/Pii_redaction_evaluation_report.pdf`](eval/report/Pii_redaction_evaluation_report.pdf).
 
 ---
 
