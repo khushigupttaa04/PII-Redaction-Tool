@@ -1,4 +1,3 @@
-"""Read text out of a .docx and write replacements back in place, so formatting is untouched."""
 import re
 
 from docx.oxml.ns import qn
@@ -11,7 +10,6 @@ def node_text(n):
 
 
 def paragraphs(doc):
-    """Every paragraph in body, tables, text boxes, headers and footers as (text nodes, text)."""
     roots = [doc.element.body] + [part._element for s in doc.sections for part in (s.header, s.footer)]
     result = []
     for root in dict.fromkeys(roots):                    # linked headers repeat; read each once
@@ -26,8 +24,7 @@ def paragraphs(doc):
 
 
 def replace_in_nodes(nodes, start, end, new):
-    """Replace characters [start, end) of a paragraph. The fake goes into the first text node
-    of the span, the rest of the span is cleared, so every run keeps its own formatting."""
+
     pos, placed = 0, False
     for n in nodes:
         text = node_text(n)
@@ -41,7 +38,6 @@ def replace_in_nodes(nodes, start, end, new):
 
 
 def fix_links(doc, replaced):
-    """Hyperlink targets (mailto:, http) sit outside the text, so replace real values there too."""
     for rel in doc.part.rels.values():
         if rel.is_external:
             for real, new in replaced.items():
@@ -49,7 +45,6 @@ def fix_links(doc, replaced):
 
 
 def clean_metadata(doc):
-    """Author and company fields in the file properties can leak names."""
     props = doc.core_properties
     props.author = props.last_modified_by = props.title = props.subject = props.keywords = props.comments = ""
     for part in doc.part.package.parts:
