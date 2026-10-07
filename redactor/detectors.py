@@ -1,5 +1,4 @@
-"""Find PII in text with Microsoft Presidio (built-in + our custom recognizers), then apply
-document-level rules on top. Every detection is a span (start, end, type, score)."""
+
 import logging
 import re
 from pathlib import Path
@@ -32,8 +31,7 @@ AVOID = {"CREDIT_CARD": r"\b(?:order|ticket|ref|invoice)\b", "SSN": r"\b(?:order
 
 
 class RegexRecognizer(EntityRecognizer):
-    """Our own rule as a Presidio recognizer: a regex, an optional required hint word nearby
-    (context), an optional validator, and an optional capture group for the PII part."""
+
 
     def __init__(self, entity, pattern, context=None, validate=None, group=0, score=0.85):
         self.regex, self.hint, self.validate, self.group, self.score = re.compile(pattern), context, validate, group, score
@@ -54,14 +52,12 @@ class RegexRecognizer(EntityRecognizer):
 
 
 def luhn(number):
-    """Credit card checksum: rejects random 16-digit numbers like order IDs."""
     digits = [int(d) for d in re.sub(r"\D", "", number)][::-1]
     total = sum(d if i % 2 == 0 else (d * 2 - 9 if d > 4 else d * 2) for i, d in enumerate(digits))
     return 13 <= len(digits) <= 19 and total % 10 == 0
 
 
 def is_address(text):
-    """Text with 2+ address words (Floor, Road, Marg...) is an address even without a PIN code."""
     return sum(w in ADDRESS_WORDS for w in re.findall(r"[a-z]+", text.lower())) >= 2
 
 
@@ -77,7 +73,6 @@ SUFFIXES |= {"private limited", "pvt. ltd", "pvt ltd", "family trust"} | {x.lowe
 COMPANY_SUFFIX = "|".join(re.escape(x) for x in sorted(SUFFIXES, key=len, reverse=True))
 
 # Presidio built-ins cover email, credit card (Luhn), IPv4/IPv6, US SSN, Aadhaar (Verhoeff checksum), PAN, GSTIN.
-# Our recognizers cover what the built-ins miss or get wrong on this kind of document.
 RECOGNIZERS = [
     EmailRecognizer(), CreditCardRecognizer(), IpRecognizer(), UsSsnRecognizer(),
     InAadhaarRecognizer(), InPanRecognizer(), InGstinRecognizer(),
@@ -129,8 +124,7 @@ ALLOW = re.compile("|".join(rf"\b{re.escape(a)}\b" for a in CONFIG["allow_list"]
 
 
 def keep_result(text, r, lowercase_words):
-    """Filters on top of Presidio: confidence threshold, allow-list, 'not PII' words before a number,
-    and for PERSON: 2+ plain words, not a street ("... Marg"), no ordinary lowercase words ("ASBA Account")."""
+
     value, pii_type = text[r.start:r.end], RENAME.get(r.entity_type, r.entity_type)
     before = text[max(0, r.start - 40):r.start]
     if r.score < THRESHOLDS.get(pii_type, THRESHOLDS["default"]) or ALLOW.search(value):
@@ -148,18 +142,14 @@ def keep_result(text, r, lowercase_words):
 
 
 def find_aliases(text, spans):
-    """'Care Analytics Private Limited ("CareEdge Research")' -> the quoted alias is the same entity."""
     for start, end, pii_type, score in spans:
         m = ALIAS.match(text, end)
-        # keep only distinctive aliases ("CareEdge"), not dictionary words ("Group Entities", "Company")
         if pii_type in ("COMPANY", "PERSON") and m and any(nlp.vocab[w].is_oov for w in m.group(1).split()):
             yield (*m.span(1), pii_type, score)
 
 
 def name_variants(text, name_words, lowercase_words):
-    """spaCy often misses Indian names. Split capitalised runs at ordinary words ("RAJNIKANT M RADADIYA AND
-    SANDIPBHAI RADADIYA" is two names), then a part is a name if it has 2+ known name words, or one known
-    name word and 2-4 words in total ("Sharadaben Jayantilal Radadiya", surname known)."""
+
     for run in NAME_RUN.finditer(text):
         parts, part = [], []
         for w in re.finditer(r"\S+", run.group()):
@@ -175,8 +165,7 @@ def name_variants(text, name_words, lowercase_words):
 
 
 def expand_name(text, start, end, lowercase_words):
-    """spaCy sometimes catches 2 of 3 name words ("Kumar Jain" in "Pawan Kumar Jain"): grow the span over up to
-    2 neighbouring name words on each side that are not ordinary words. Punctuation stops it."""
+   
     def is_name(word):
         return re.fullmatch(NAME_WORD, word) and (len(word.rstrip(".")) == 1 or word.lower() not in lowercase_words)
     for _ in range(2):
@@ -194,7 +183,6 @@ def brand(company):
 
 
 def resolve(spans):
-    """Overlapping detections: keep the longer one (an email beats the name inside it)."""
     kept = []
     for s in sorted(spans, key=lambda s: s[0] - s[1]):
         if all(s[1] <= k[0] or s[0] >= k[1] for k in kept):
@@ -203,9 +191,7 @@ def resolve(spans):
 
 
 def detect_all(texts):
-    """Detect PII in all paragraphs of one document.
-    Pass 1: Presidio on each paragraph (batched through spaCy). Pass 2: document-level rules re-use
-    what pass 1 found anywhere, so a name, company or brand caught once is caught everywhere."""
+
     texts = [t.translate(NORMALIZE) for t in texts]
     plain = re.sub(r"\S*(?:@|www\.|://)\S*", " ", " ".join(texts))         # emails/links hold names in lowercase
     lowercase_words = set(re.findall(r"\b[a-z]+\b", plain))                  # "account", "branch": ordinary words
