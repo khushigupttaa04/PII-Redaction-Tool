@@ -1,5 +1,4 @@
-"""End to end: read -> detect -> fake -> write. Works for .docx and plain text (.txt / .log / .csv).
-Usage: python -m redactor.pipeline <input> <output>"""
+
 import json
 import re
 import sys
@@ -10,7 +9,6 @@ from redactor import detectors, docx_io, fakes, images
 
 
 def replacements(texts, all_spans):
-    """Yield (paragraph index, start, end, type, score, real, fake), last span first so offsets stay valid."""
     fakes.reset()
     for text, spans in zip(texts, all_spans):          # people first, so their emails can reuse fake names
         for s, e, t, _ in spans:
