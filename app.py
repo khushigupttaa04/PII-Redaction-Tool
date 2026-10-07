@@ -24,5 +24,6 @@ if upload and st.button("Redact"):
             st.warning(f"Leak check: {len(leaks)} replaced values still appear: {leaks}")
         else:
             st.info("Leak check passed: none of the replaced values remain in the output")
-        st.table(Counter(item["type"] for item in log).most_common())       # what was found, by type
-        st.download_button("Download redacted file", open(dst, "rb").read(), file_name="redacted_" + upload.name)
+        st.table(Counter(item["type"] for item in log).most_common())       
+        ext = os.path.splitext(upload.name)[1]                       # keep ".docx" / ".txt" etc.
+        st.download_button("Download redacted file", open(dst, "rb").read(), file_name="redacted_document" + ext)
