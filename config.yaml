@@ -1,12 +1,9 @@
-# Minimum Presidio confidence to redact, per PII type (anything not listed uses default)
 thresholds:
   default: 0.4
-  PAN: 0.5            # Presidio's weakest PAN pattern (any 10-letter word) can reach 0.4 with context
+  PAN: 0.5            # Presidio's weakest PAN pattern = 0.4
 
-# Legal-entity suffixes missing from the cleanco library (UAE free-zone forms)
 extra_company_suffixes: [DMCC, FZE, FZCO, FZ-LLC]
 
-# Public bodies and finance terms that are NOT PII (whole-word, case-insensitive)
 allow_list:
   - SEBI
   - BSE Limited
