@@ -1,4 +1,4 @@
-"""Small checks for the rules most likely to break. Run: python -m pytest tests"""
+# test for leaks most likely  to occur
 import docx
 
 from redactor import detectors, fakes
